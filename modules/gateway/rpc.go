@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/encoding"
-	"gitlab.com/NebulousLabs/Sia/modules"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/encoding"
+	"github.com/acejam/Sia/modules"
 )
 
 // rpcID is an 8-byte signature that is added to all RPCs to tell the gatway

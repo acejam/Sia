@@ -3,9 +3,9 @@ package client
 import (
 	"net/url"
 
-	"gitlab.com/NebulousLabs/Sia/encoding"
-	"gitlab.com/NebulousLabs/Sia/node/api"
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/encoding"
+	"github.com/acejam/Sia/node/api"
+	"github.com/acejam/Sia/types"
 )
 
 // TransactionPoolFeeGet uses the /tpool/fee endpoint to get a fee estimation.

@@ -13,8 +13,8 @@ import (
 	"gitlab.com/NebulousLabs/errors"
 	"gitlab.com/NebulousLabs/go-upnp"
 
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/modules"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/modules"
 )
 
 // myExternalIP discovers the gateway's external IP by querying a centralized

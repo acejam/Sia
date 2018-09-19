@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	"gitlab.com/NebulousLabs/Sia/modules"
-	"gitlab.com/NebulousLabs/Sia/modules/renter/hostdb/hosttree"
-	"gitlab.com/NebulousLabs/Sia/persist"
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/modules"
+	"github.com/acejam/Sia/modules/renter/hostdb/hosttree"
+	"github.com/acejam/Sia/persist"
+	"github.com/acejam/Sia/types"
 	"gitlab.com/NebulousLabs/threadgroup"
 )
 

@@ -4,10 +4,10 @@ import (
 	"errors"
 	"sync"
 
-	"gitlab.com/NebulousLabs/Sia/crypto"
-	"gitlab.com/NebulousLabs/Sia/modules"
-	"gitlab.com/NebulousLabs/Sia/modules/renter/proto"
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/crypto"
+	"github.com/acejam/Sia/modules"
+	"github.com/acejam/Sia/modules/renter/proto"
+	"github.com/acejam/Sia/types"
 )
 
 var errInvalidDownloader = errors.New("downloader has been invalidated because its contract is being renewed")

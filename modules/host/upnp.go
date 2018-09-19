@@ -6,8 +6,8 @@ import (
 	"net"
 	"strconv"
 
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/modules"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/modules"
 
 	"gitlab.com/NebulousLabs/go-upnp"
 )

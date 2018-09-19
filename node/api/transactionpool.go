@@ -6,10 +6,10 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	"gitlab.com/NebulousLabs/Sia/crypto"
-	"gitlab.com/NebulousLabs/Sia/encoding"
-	"gitlab.com/NebulousLabs/Sia/modules"
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/crypto"
+	"github.com/acejam/Sia/encoding"
+	"github.com/acejam/Sia/modules"
+	"github.com/acejam/Sia/types"
 )
 
 type (

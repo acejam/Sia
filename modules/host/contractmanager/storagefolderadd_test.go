@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.com/NebulousLabs/Sia/modules"
+	"github.com/acejam/Sia/modules"
 )
 
 // TestAddStorageFolder tries to add a storage folder to the contract manager,

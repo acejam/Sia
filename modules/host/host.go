@@ -70,13 +70,13 @@ import (
 	"path/filepath"
 	"sync"
 
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/crypto"
-	"gitlab.com/NebulousLabs/Sia/modules"
-	"gitlab.com/NebulousLabs/Sia/modules/host/contractmanager"
-	"gitlab.com/NebulousLabs/Sia/persist"
-	siasync "gitlab.com/NebulousLabs/Sia/sync"
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/crypto"
+	"github.com/acejam/Sia/modules"
+	"github.com/acejam/Sia/modules/host/contractmanager"
+	"github.com/acejam/Sia/persist"
+	siasync "github.com/acejam/Sia/sync"
+	"github.com/acejam/Sia/types"
 )
 
 const (

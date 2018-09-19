@@ -6,8 +6,8 @@ import (
 
 	"gitlab.com/NebulousLabs/entropy-mnemonics"
 
-	"gitlab.com/NebulousLabs/Sia/crypto"
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/crypto"
+	"github.com/acejam/Sia/types"
 )
 
 const (

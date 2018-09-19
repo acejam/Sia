@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/modules"
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/modules"
+	"github.com/acejam/Sia/types"
 )
 
 // newStub is used to test the New function. It implements all of the contractor's

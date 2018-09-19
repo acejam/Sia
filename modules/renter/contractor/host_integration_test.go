@@ -9,18 +9,18 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/crypto"
-	"gitlab.com/NebulousLabs/Sia/encoding"
-	"gitlab.com/NebulousLabs/Sia/modules"
-	"gitlab.com/NebulousLabs/Sia/modules/consensus"
-	"gitlab.com/NebulousLabs/Sia/modules/gateway"
-	"gitlab.com/NebulousLabs/Sia/modules/host"
-	"gitlab.com/NebulousLabs/Sia/modules/miner"
-	"gitlab.com/NebulousLabs/Sia/modules/renter/hostdb"
-	"gitlab.com/NebulousLabs/Sia/modules/transactionpool"
-	modWallet "gitlab.com/NebulousLabs/Sia/modules/wallet"
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/crypto"
+	"github.com/acejam/Sia/encoding"
+	"github.com/acejam/Sia/modules"
+	"github.com/acejam/Sia/modules/consensus"
+	"github.com/acejam/Sia/modules/gateway"
+	"github.com/acejam/Sia/modules/host"
+	"github.com/acejam/Sia/modules/miner"
+	"github.com/acejam/Sia/modules/renter/hostdb"
+	"github.com/acejam/Sia/modules/transactionpool"
+	modWallet "github.com/acejam/Sia/modules/wallet"
+	"github.com/acejam/Sia/types"
 	"gitlab.com/NebulousLabs/fastrand"
 )
 
@@ -612,7 +612,7 @@ func TestIntegrationEditorCaching(t *testing.T) {
 
 // TestContractPresenceLeak tests that a renter can not tell from the response
 // of the host to RPCs if the host has the contract if the renter doesn't
-// own this contract. See https://gitlab.com/NebulousLabs/Sia/issues/2327.
+// own this contract. See https://github.com/acejam/Sia/issues/2327.
 func TestContractPresenceLeak(t *testing.T) {
 	if testing.Short() {
 		t.SkipNow()

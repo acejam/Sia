@@ -3,8 +3,8 @@ package host
 import (
 	"errors"
 
-	"gitlab.com/NebulousLabs/Sia/sync"
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/sync"
+	"github.com/acejam/Sia/types"
 )
 
 var (

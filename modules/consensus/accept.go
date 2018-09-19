@@ -7,9 +7,9 @@ import (
 	"os"
 	"time"
 
-	"gitlab.com/NebulousLabs/Sia/modules"
-	"gitlab.com/NebulousLabs/Sia/types"
-	"gitlab.com/NebulousLabs/Sia/encoding"
+	"github.com/acejam/Sia/modules"
+	"github.com/acejam/Sia/types"
+	"github.com/acejam/Sia/encoding"
 
 	"github.com/coreos/bbolt"
 )

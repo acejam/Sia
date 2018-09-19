@@ -10,11 +10,11 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/encoding"
-	"gitlab.com/NebulousLabs/Sia/modules"
-	"gitlab.com/NebulousLabs/Sia/persist"
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/encoding"
+	"github.com/acejam/Sia/modules"
+	"github.com/acejam/Sia/persist"
+	"github.com/acejam/Sia/types"
 )
 
 const (

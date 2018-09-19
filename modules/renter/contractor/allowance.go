@@ -4,7 +4,7 @@ import (
 	"errors"
 	"reflect"
 
-	"gitlab.com/NebulousLabs/Sia/modules"
+	"github.com/acejam/Sia/modules"
 )
 
 var (

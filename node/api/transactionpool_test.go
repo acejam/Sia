@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/encoding"
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/encoding"
+	"github.com/acejam/Sia/types"
 )
 
 // TestTransactionPoolRawHandler verifies that the transaction pools' raw

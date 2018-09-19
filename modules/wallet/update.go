@@ -3,8 +3,8 @@ package wallet
 import (
 	"math"
 
-	"gitlab.com/NebulousLabs/Sia/modules"
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/modules"
+	"github.com/acejam/Sia/types"
 	"gitlab.com/NebulousLabs/errors"
 
 	"github.com/coreos/bbolt"

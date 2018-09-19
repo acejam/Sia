@@ -6,9 +6,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/crypto"
-	"gitlab.com/NebulousLabs/Sia/modules"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/crypto"
+	"github.com/acejam/Sia/modules"
 )
 
 var (

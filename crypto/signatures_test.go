@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"gitlab.com/NebulousLabs/Sia/encoding"
+	"github.com/acejam/Sia/encoding"
 	"gitlab.com/NebulousLabs/fastrand"
 )
 

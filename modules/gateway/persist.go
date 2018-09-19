@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"gitlab.com/NebulousLabs/Sia/modules"
-	"gitlab.com/NebulousLabs/Sia/persist"
+	"github.com/acejam/Sia/modules"
+	"github.com/acejam/Sia/persist"
 )
 
 const (

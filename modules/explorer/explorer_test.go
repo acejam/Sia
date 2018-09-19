@@ -4,16 +4,16 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/crypto"
-	"gitlab.com/NebulousLabs/Sia/modules"
-	"gitlab.com/NebulousLabs/Sia/modules/consensus"
-	"gitlab.com/NebulousLabs/Sia/modules/gateway"
-	"gitlab.com/NebulousLabs/Sia/modules/miner"
-	"gitlab.com/NebulousLabs/Sia/modules/transactionpool"
-	"gitlab.com/NebulousLabs/Sia/modules/wallet"
-	"gitlab.com/NebulousLabs/Sia/persist"
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/crypto"
+	"github.com/acejam/Sia/modules"
+	"github.com/acejam/Sia/modules/consensus"
+	"github.com/acejam/Sia/modules/gateway"
+	"github.com/acejam/Sia/modules/miner"
+	"github.com/acejam/Sia/modules/transactionpool"
+	"github.com/acejam/Sia/modules/wallet"
+	"github.com/acejam/Sia/persist"
+	"github.com/acejam/Sia/types"
 )
 
 // Explorer tester struct is the helper object for explorer

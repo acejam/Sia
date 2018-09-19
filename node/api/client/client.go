@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strings"
 
-	"gitlab.com/NebulousLabs/Sia/node/api"
+	"github.com/acejam/Sia/node/api"
 	"gitlab.com/NebulousLabs/errors"
 )
 

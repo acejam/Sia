@@ -9,9 +9,9 @@ import (
 	"sync"
 	"testing"
 
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/modules"
-	siasync "gitlab.com/NebulousLabs/Sia/sync"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/modules"
+	siasync "github.com/acejam/Sia/sync"
 )
 
 // newTestingGateway returns a gateway ready to use in a testing environment.

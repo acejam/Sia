@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/types"
 )
 
 var (

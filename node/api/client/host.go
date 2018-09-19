@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"strconv"
 
-	"gitlab.com/NebulousLabs/Sia/crypto"
-	"gitlab.com/NebulousLabs/Sia/modules"
-	"gitlab.com/NebulousLabs/Sia/node/api"
+	"github.com/acejam/Sia/crypto"
+	"github.com/acejam/Sia/modules"
+	"github.com/acejam/Sia/node/api"
 )
 
 // HostParam is a parameter in the host's settings that can be changed via the

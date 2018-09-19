@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/modules"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/modules"
 )
 
 // contractManagerTester holds a contract manager along with some other fields

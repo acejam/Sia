@@ -2,9 +2,9 @@ package explorer
 
 import (
 	"github.com/coreos/bbolt"
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/modules"
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/modules"
+	"github.com/acejam/Sia/types"
 )
 
 // Block takes a block ID and finds the corresponding block, provided that the

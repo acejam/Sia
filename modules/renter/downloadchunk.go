@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"gitlab.com/NebulousLabs/Sia/crypto"
-	"gitlab.com/NebulousLabs/Sia/modules"
+	"github.com/acejam/Sia/crypto"
+	"github.com/acejam/Sia/modules"
 
 	"gitlab.com/NebulousLabs/errors"
 )

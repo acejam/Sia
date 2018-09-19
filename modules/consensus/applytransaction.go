@@ -4,9 +4,9 @@ package consensus
 // There is an assumption that the transaction has already been verified.
 
 import (
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/modules"
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/modules"
+	"github.com/acejam/Sia/types"
 
 	"github.com/coreos/bbolt"
 )

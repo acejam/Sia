@@ -3,8 +3,8 @@ package api
 import (
 	"testing"
 
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/modules/gateway"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/modules/gateway"
 )
 
 // TestGatewayStatus checks that the /gateway/status call is returning a corect

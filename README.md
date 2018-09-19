@@ -92,7 +92,7 @@ To build from source, [Go 1.10 must be installed](https://golang.org/doc/install
 on the system. Make sure your `$GOPATH` is set, and then simply use `go get`:
 
 ```
-go get -u gitlab.com/NebulousLabs/Sia/...
+go get -u github.com/acejam/Sia/...
 ```
 
 This will download the Sia repo to your `$GOPATH/src` folder and install the

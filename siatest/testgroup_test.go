@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/node"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/node"
 )
 
 // TestCreateTestGroup tests the behavior of NewGroup.

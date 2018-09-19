@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/types"
 )
 
 func TestParseFilesize(t *testing.T) {

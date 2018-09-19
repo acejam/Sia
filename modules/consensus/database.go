@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"os"
 
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/encoding"
-	"gitlab.com/NebulousLabs/Sia/persist"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/encoding"
+	"github.com/acejam/Sia/persist"
 
 	"github.com/coreos/bbolt"
 )

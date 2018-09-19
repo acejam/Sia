@@ -5,9 +5,9 @@ package explorer
 import (
 	"errors"
 
-	"gitlab.com/NebulousLabs/Sia/modules"
-	"gitlab.com/NebulousLabs/Sia/persist"
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/modules"
+	"github.com/acejam/Sia/persist"
+	"github.com/acejam/Sia/types"
 )
 
 const (

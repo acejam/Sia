@@ -3,7 +3,7 @@ package hostdb
 import (
 	"time"
 
-	"gitlab.com/NebulousLabs/Sia/build"
+	"github.com/acejam/Sia/build"
 )
 
 const (

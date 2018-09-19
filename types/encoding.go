@@ -10,9 +10,9 @@ import (
 	"strings"
 	"unsafe"
 
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/crypto"
-	"gitlab.com/NebulousLabs/Sia/encoding"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/crypto"
+	"github.com/acejam/Sia/encoding"
 )
 
 // sanityCheckWriter checks that the bytes written to w exactly match the

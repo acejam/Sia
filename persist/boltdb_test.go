@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/coreos/bbolt"
-	"gitlab.com/NebulousLabs/Sia/build"
+	"github.com/acejam/Sia/build"
 	"gitlab.com/NebulousLabs/fastrand"
 )
 

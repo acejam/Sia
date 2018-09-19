@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/types"
 )
 
 // TestEstimatedHeightAt tests that the expectedHeightAt function correctly

@@ -1,10 +1,10 @@
 package siatest
 
 import (
-	"gitlab.com/NebulousLabs/Sia/node"
-	"gitlab.com/NebulousLabs/Sia/node/api/client"
-	"gitlab.com/NebulousLabs/Sia/node/api/server"
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/node"
+	"github.com/acejam/Sia/node/api/client"
+	"github.com/acejam/Sia/node/api/server"
+	"github.com/acejam/Sia/types"
 
 	"gitlab.com/NebulousLabs/errors"
 )

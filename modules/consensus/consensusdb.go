@@ -7,10 +7,10 @@ package consensus
 // ignored otherwise, which is suboptimal.
 
 import (
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/encoding"
-	"gitlab.com/NebulousLabs/Sia/modules"
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/encoding"
+	"github.com/acejam/Sia/modules"
+	"github.com/acejam/Sia/types"
 
 	"github.com/coreos/bbolt"
 )

@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/modules"
-	"gitlab.com/NebulousLabs/Sia/modules/renter"
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/modules"
+	"github.com/acejam/Sia/modules/renter"
+	"github.com/acejam/Sia/types"
 
 	"github.com/julienschmidt/httprouter"
 )

@@ -3,7 +3,7 @@ package crypto
 import (
 	"bytes"
 
-	"gitlab.com/NebulousLabs/Sia/encoding"
+	"github.com/acejam/Sia/encoding"
 
 	"gitlab.com/NebulousLabs/merkletree"
 )

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"gitlab.com/NebulousLabs/Sia/crypto"
-	"gitlab.com/NebulousLabs/Sia/encoding"
+	"github.com/acejam/Sia/crypto"
+	"github.com/acejam/Sia/encoding"
 	"gitlab.com/NebulousLabs/fastrand"
 )
 

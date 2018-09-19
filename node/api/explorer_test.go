@@ -3,7 +3,7 @@ package api
 import (
 	"testing"
 
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/types"
 )
 
 // TestIntegrationExplorerGET probes the GET call to /explorer.

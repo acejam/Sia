@@ -4,16 +4,16 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gitlab.com/NebulousLabs/Sia/build"
-	"gitlab.com/NebulousLabs/Sia/crypto"
-	"gitlab.com/NebulousLabs/Sia/modules"
-	"gitlab.com/NebulousLabs/Sia/modules/consensus"
-	"gitlab.com/NebulousLabs/Sia/modules/gateway"
-	"gitlab.com/NebulousLabs/Sia/modules/miner"
-	"gitlab.com/NebulousLabs/Sia/modules/renter/hostdb"
-	"gitlab.com/NebulousLabs/Sia/modules/transactionpool"
-	modWallet "gitlab.com/NebulousLabs/Sia/modules/wallet" // name conflicts with type
-	"gitlab.com/NebulousLabs/Sia/types"
+	"github.com/acejam/Sia/build"
+	"github.com/acejam/Sia/crypto"
+	"github.com/acejam/Sia/modules"
+	"github.com/acejam/Sia/modules/consensus"
+	"github.com/acejam/Sia/modules/gateway"
+	"github.com/acejam/Sia/modules/miner"
+	"github.com/acejam/Sia/modules/renter/hostdb"
+	"github.com/acejam/Sia/modules/transactionpool"
+	modWallet "github.com/acejam/Sia/modules/wallet" // name conflicts with type
+	"github.com/acejam/Sia/types"
 )
 
 // contractorTester contains all of the modules that are used while testing the contractor.
