@@ -9,6 +9,7 @@ import (
 
 	"gitlab.com/NebulousLabs/Sia/modules"
 	"gitlab.com/NebulousLabs/Sia/types"
+	"gitlab.com/NebulousLabs/Sia/encoding"
 
 	"github.com/coreos/bbolt"
 )
@@ -219,6 +220,10 @@ func (cs *ConsensusSet) threadedSleepOnFutureBlock(b types.Block) {
 // consecutive calls to AcceptBlock with each successive call accepting the
 // child block of the previous call.
 func (cs *ConsensusSet) managedAcceptBlocks(blocks []types.Block) (blockchainExtended bool, err error) {
+	var newBlocks []types.Block
+	encoding.Unmarshal(encoding.Marshal(blocks), &newBlocks)
+	blocks = newBlocks
+
 	// Grab a lock on the consensus set.
 	cs.mu.Lock()
 	defer cs.mu.Unlock()
